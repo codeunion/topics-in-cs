@@ -56,6 +56,7 @@ them on the right, e.g.,
 
 ## Evaluating RPN
 
+```text
 evaluate_rpn(tokens):
   stack  <- empty stack
   tokens <- extract_tokens(expr)
@@ -77,7 +78,7 @@ evaluate_rpn(tokens):
   endfor
 
   return pop(stack)
-
+```
 
 ## Stacks (Abstract Data Type)
 
