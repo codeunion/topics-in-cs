@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+# This adds the "lib" directory to the library path, so we can type
+#
+#     require "whatever"
+#
+# instead of
+#
+#     require "./lib/whatever"
+#
+
+require "rpn_expression"
+
+loop do
+  print "rpn> "
+  input = gets.chomp
+
+  case input
+  when "exit"
+    puts "Bye bye!"
+    exit
+  else
+    begin
+      puts RPNExpression.new(input).evaluate
+    rescue StandardError => e
+      puts "Error evaluating RPN expression: #{input.inspect}"
+      puts e
+    end
+  end
+end
