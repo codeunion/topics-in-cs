@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+# This adds the "lib" directory to the library path, so we can type
+#
+#     require "whatever"
+#
+# instead of
+#
+#     require "./lib/whatever"
+#
+
+require "expression"
+
+bindings = {}
+
+loop do
+  print "calc> "
+  input = gets.chomp
+
+  case input
+  when "exit"
+    puts "Bye bye!"
+    exit
+  # e.g., lines that look like x = 20
+  when /^([a-z]+)\s*=\s*(-*\d+)$/
+    bindings[$1] = $2
+  else
+    begin
+      puts Expression.new(input).simplify(bindings).to_s
+    rescue StandardError => error
+      puts "Error evaluating RPN expression: #{input.inspect}"
+      puts error
+    end
+  end
+end
