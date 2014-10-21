@@ -3,7 +3,8 @@ class Node
     {
       '+' => AdditionNode,
       '-' => SubtractionNode,
-      '*' => MultiplicationNode
+      '*' => MultiplicationNode,
+      '/' => DivisionNode
     }
   end
 
@@ -37,19 +38,21 @@ class OperandNode < Node
     @value = value
   end
 
-  def ==(other)
-    value == other.value
-  end
-
   def to_s
     value.to_s
   end
 end
 
 class NumericNode < OperandNode
+  def ==(other)
+    other.is_a?(NumericNode) && value == other.value
+  end
 end
 
 class VariableNode < OperandNode
+  def ==(other)
+    other.is_a?(VariableNode) && value == other.value
+  end
 end
 
 class OperatorNode < Node
@@ -126,10 +129,27 @@ class MultiplicationNode < OperatorNode
       rhs
     elsif rhs.is_a?(NumericNode) && rhs.value == 1
       lhs
-    elsif lhs.is_a?(OperandNode) && rhs.is_a?(OperandNode)
-      self
     else
       MultiplicationNode.new(lhs, rhs)
+    end
+  end
+end
+
+class DivisionNode < OperatorNode
+  def to_s
+    "(#{self.left.to_s} / #{self.right.to_s})"
+  end
+
+  def simplify
+    lhs = left.simplify
+    rhs = right.simplify
+
+    if lhs.is_a?(NumericNode) && rhs.is_a?(NumericNode)
+      NumericNode.new(Rational(lhs.value, rhs.value))
+    elsif rhs.is_a?(NumericNode) && rhs.value == 1
+      lhs
+    else
+      DivisionNode.new(lhs, rhs)
     end
   end
 end
