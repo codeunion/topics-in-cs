@@ -20,7 +20,7 @@ Write a function that takes two rectangles as arguments and returns the rectangl
 }
 ```
 
-The above map represents the unique rectangle whose lower left-hand corner is at `(5,4)` with width `200` and `height` 100.
+The above map represents the unique rectangle whose lower left-hand corner is at `(5,4)` with width `200` and height `100`.
 
 **Note**: Stephens solved this but represented rectangles not as the above map but as a pair of (x,y) coordinates representing the rectangle's lower left-hand corner and upper right-hand corner, respectively.
 
