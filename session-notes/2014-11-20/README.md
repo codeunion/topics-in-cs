@@ -4,6 +4,9 @@
 
 ## Interview Problems
 
+1. [Rectangle Intersection](#rectangle-intersection)
+2. [Parens Matching](#parens-matching)
+
 ### Rectangle Intersection
 
 Write a function that takes two rectangles as arguments and returns the rectangle formed from their intersection.  Rectangles will be represented by a map with keys `(x, y, widhth, height)`, where `(x,y)` is the coordinate of the lower left-hand corner.
