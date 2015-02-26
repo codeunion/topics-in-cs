@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require_relative 'rpn.rb'
+
+input = ""
+while input != "exit"
+  printf "evaluate:"
+  input = gets.chomp.strip
+  puts RPN::Expression.new(input).evaluate
+end

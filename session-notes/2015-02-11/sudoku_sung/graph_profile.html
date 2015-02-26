@@ -1,0 +1,3608 @@
+Matrix[[6, 9, 3, 8, 7, 5, 4, 1, 2], [1, 4, 5, 6, 3, 2, 7, 9, 8], [7, 8, 2, 1, 9, 4, 3, 5, 6], [3, 5, 7, 4, 2, 1, 8, 6, 9], [8, 1, 6, 9, 5, 7, 2, 3, 4], [4, 2, 9, 3, 6, 8, 1, 7, 5], [2, 7, 4, 5, 1, 9, 6, 8, 3], [9, 6, 8, 7, 4, 3, 5, 2, 1], [5, 3, 1, 2, 8, 6, 9, 4, 7]]
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <style media="all" type="text/css">
+    table {
+      border-collapse: collapse;
+      border: 1px solid #CCC;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 9pt;
+      line-height: normal;
+      width: 100%;
+    }
+
+    th {
+      text-align: center;
+      border-top: 1px solid #FB7A31;
+      border-bottom: 1px solid #FB7A31;
+      background: #FFC;
+      padding: 0.3em;
+      border-left: 1px solid silver;
+    }
+
+    tr.break td {
+      border: 0;
+      border-top: 1px solid #FB7A31;
+      padding: 0;
+      margin: 0;
+    }
+
+    tr.method td {
+      font-weight: bold;
+    }
+
+    td {
+      padding: 0.3em;
+    }
+
+    td:first-child {
+      width: 190px;
+      }
+
+    td {
+      border-left: 1px solid #CCC;
+      text-align: center;
+    }
+
+    .method_name {
+      text-align: left;
+    }
+
+    tfoot td {
+      text-align: left;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Profile Report</h1>
+    <!-- Threads Table -->
+    <table>
+      <tr>
+        <th>Thread ID</th>
+        <th>Fiber ID</th>
+        <th>Total Time</th>
+      </tr>
+      
+      <tr>
+        <td>70179245939680</td>
+        <td><a href="#70179258199220">70179258199220</a></td>
+        <td>31.272245</td>
+      </tr>
+      
+    </table>
+
+    <!-- Methods Tables -->
+    
+      <h2><a name="70179258199220">Thread 70179245939680, Fiber: 70179258199220</a></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>  %Total</th>
+            <th>   %Self</th>
+            <th>     Total</th>
+            <th>      Self</th>
+            <th>      Wait</th>
+            <th>       Child</th>
+            <th>               Calls</th>
+            <th class="method_name">Name</th>
+            <th>Line</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          
+
+              <!-- Parents -->
+              
+
+              <tr class="method">
+                <td> 100.00%</td>
+                <td>   0.00%</td>
+                <td>     31.27</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>     31.27</td>
+                <td>                   1</td>
+                <td class="method_name">
+                  <a name="Global_[No method]_70179258199220">
+                     Global#[No method]
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb&line=9" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb:9">9</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>            1/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb&line=9" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb:9">9</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.93</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      2.93</td>
+                  
+                  <td>                 1/1</td>
+                  <td class="method_name"><a href="#Sudoku__Solver_answer_70179258199220">Sudoku::Solver#answer</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb&line=9" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb:9">9</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>                 1/1</td>
+                  <td class="method_name">Kernel#puts</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb&line=9" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb:9">9</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Hash_each_key_70179258199220">Hash#each_key</a></td>
+                  <td></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57362/803057</td>
+                  <td class="method_name"><a href="#_Class__Matrix__rows_70179258199220">&lt;Class::Matrix&gt;#rows</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=161" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:161">161</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>            1/803057</td>
+                  <td class="method_name"><a href="#Sudoku__Solver_initialize_70179258199220">Sudoku::Solver#initialize</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=17" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:17">17</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_build_children_70179258199220">Sudoku::Puzzle#build_children</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       229444/803057</td>
+                  <td class="method_name"><a href="#Set_initialize_70179258199220">Set#initialize</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=81" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:81">81</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       114722/803057</td>
+                  <td class="method_name"><a href="#_Class__Vector__elements_70179258199220">&lt;Class::Vector&gt;#elements</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1565" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1565">1565</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_set_for_square_70179258199220">Sudoku::Puzzle#set_for_square</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=78" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:78">78</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Matrix_column_70179258199220">Matrix#column</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=368" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:368">368</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_set_for_col_70179258199220">Sudoku::Puzzle#set_for_col</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=72" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:72">72</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name">Matrix#new_matrix</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=307" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:307">307</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_set_for_row_70179258199220">Sudoku::Puzzle#set_for_row</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=66" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:66">66</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>            1/803057</td>
+                  <td class="method_name"><a href="#Global_[No method]_70179258199220">Global#[No method]</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb&line=9" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb:9">9</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  90.62%</td>
+                <td>   0.00%</td>
+                <td>     28.34</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>     28.34</td>
+                <td>              803057</td>
+                <td class="method_name">
+                  <a name="Class_new_70179258199220">
+                    *Class#new
+                  </a>
+                </td>
+                <td></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>                 1/1</td>
+                  <td class="method_name"><a href="#Sudoku__Solver_initialize_70179258199220">Sudoku::Solver#initialize</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>         57362/57362</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_initialize_70179258199220">Sudoku::Puzzle#initialize</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      8.59</td>
+                  <td>      0.81</td>
+                  <td>      0.00</td>
+                  <td>      7.78</td>
+                  
+                  <td>       229444/229444</td>
+                  <td class="method_name"><a href="#Set_initialize_70179258199220">Set#initialize</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.31</td>
+                  <td>      0.31</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name">Array#initialize</td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.17</td>
+                  <td>      0.17</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       229444/229444</td>
+                  <td class="method_name">Hash#initialize</td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.16</td>
+                  <td>      0.16</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       114723/114723</td>
+                  <td class="method_name">Matrix#initialize</td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.11</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name">Vector#initialize</td>
+                  <td></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>                 1/1</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  90.62%</td>
+                <td>   0.00%</td>
+                <td>     28.34</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>     28.34</td>
+                <td>                   1</td>
+                <td class="method_name">
+                  <a name="Sudoku__Solver_initialize_70179258199220">
+                     Sudoku::Solver#initialize
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=11" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:11">11</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>            1/577273</td>
+                  <td class="method_name"><a href="#Enumerable_each_with_index_70179258199220">Enumerable#each_with_index</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=13" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:13">13</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>             1/57362</td>
+                  <td class="method_name"><a href="#_Class__Matrix__rows_70179258199220">&lt;Class::Matrix&gt;#rows</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=17" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:17">17</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>                 1/1</td>
+                  <td class="method_name">String#split</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=13" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:13">13</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>                 1/1</td>
+                  <td class="method_name">String#strip</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=13" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:13">13</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>            1/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=17" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:17">17</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>         57362/57362</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  90.62%</td>
+                <td>   0.00%</td>
+                <td>     28.34</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>     28.34</td>
+                <td>               57362</td>
+                <td class="method_name">
+                  <a name="Sudoku__Puzzle_initialize_70179258199220">
+                    *Sudoku::Puzzle#initialize
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=9" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:9">9</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>         57362/57362</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_build_children_70179258199220">Sudoku::Puzzle#build_children</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=11" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:11">11</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>         57362/57362</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_initialize_70179258199220">Sudoku::Puzzle#initialize</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=11" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:11">11</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  90.62%</td>
+                <td>   0.00%</td>
+                <td>     28.34</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>     28.34</td>
+                <td>               57362</td>
+                <td class="method_name">
+                  <a name="Sudoku__Puzzle_build_children_70179258199220">
+                    *Sudoku::Puzzle#build_children
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=44" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:44">44</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#Set_each_70179258199220">Set#each</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=51" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:51">51</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      4.72</td>
+                  <td>      0.16</td>
+                  <td>      0.00</td>
+                  <td>      4.57</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_set_for_square_70179258199220">Sudoku::Puzzle#set_for_square</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      3.55</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      3.44</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_set_for_col_70179258199220">Sudoku::Puzzle#set_for_col</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      3.51</td>
+                  <td>      0.29</td>
+                  <td>      0.00</td>
+                  <td>      3.22</td>
+                  
+                  <td>        57362/102375</td>
+                  <td class="method_name"><a href="#Matrix_index_70179258199220">Matrix#index</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=46" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:46">46</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      3.19</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      3.09</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_set_for_row_70179258199220">Sudoku::Puzzle#set_for_row</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.25</td>
+                  <td>      0.19</td>
+                  <td>      0.00</td>
+                  <td>      2.06</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Set_subtract_70179258199220">Set#subtract</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.11</td>
+                  <td>      0.20</td>
+                  <td>      0.00</td>
+                  <td>      1.91</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name"><a href="#Set_|_70179258199220">Set#|</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.08</td>
+                  <td>      0.08</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name">Sudoku::Puzzle#matrix_index_to_array_index</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#Enumerable_each_entry_70179258199220">Enumerable#each_entry</a></td>
+                  <td></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_build_children_70179258199220">Sudoku::Puzzle#build_children</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=51" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:51">51</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  90.62%</td>
+                <td>   0.00%</td>
+                <td>     28.34</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>     28.34</td>
+                <td>              114722</td>
+                <td class="method_name">
+                  <a name="Set_each_70179258199220">
+                    *Set#each
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=261" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:261">261</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name"><a href="#Hash_each_key_70179258199220">Hash#each_key</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=263" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263">263</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>     28.34</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>     28.34</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name"><a href="#Set_each_70179258199220">Set#each</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=263" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:263">263</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  90.62%</td>
+                <td>   0.00%</td>
+                <td>     28.34</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>     28.34</td>
+                <td>              114722</td>
+                <td class="method_name">
+                  <a name="Hash_each_key_70179258199220">
+                    *Hash#each_key
+                  </a>
+                </td>
+                <td></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      3.97</td>
+                  <td>      0.28</td>
+                  <td>      0.00</td>
+                  <td>      3.69</td>
+                  
+                  <td>         57361/57362</td>
+                  <td class="method_name"><a href="#_Class__Matrix__rows_70179258199220">&lt;Class::Matrix&gt;#rows</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.71</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      1.60</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#Matrix_to_a_70179258199220">Matrix#to_a</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.13</td>
+                  <td>      0.83</td>
+                  <td>      0.00</td>
+                  <td>      0.30</td>
+                  
+                  <td>       516249/516249</td>
+                  <td class="method_name"><a href="#Set_delete_70179258199220">Set#delete</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.10</td>
+                  <td>      0.07</td>
+                  <td>      0.00</td>
+                  <td>      0.03</td>
+                  
+                  <td>        57361/966452</td>
+                  <td class="method_name">Enumerable#min</td>
+                  <td></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.28</td>
+                  <td>      0.28</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57362/966452</td>
+                  <td class="method_name"><a href="#_Class__Matrix__rows_70179258199220">&lt;Class::Matrix&gt;#rows</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=158" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:158">158</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.35</td>
+                  <td>      1.01</td>
+                  <td>      0.00</td>
+                  <td>      1.34</td>
+                  
+                  <td>       114722/966452</td>
+                  <td class="method_name"><a href="#Vector_each_70179258199220">Vector#each</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1610" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1610">1610</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.42</td>
+                  <td>      1.02</td>
+                  <td>      0.00</td>
+                  <td>      1.40</td>
+                  
+                  <td>       114722/966452</td>
+                  <td class="method_name"><a href="#Enumerable_each_entry_70179258199220">Enumerable#each_entry</a></td>
+                  <td></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.84</td>
+                  <td>      0.29</td>
+                  <td>      0.00</td>
+                  <td>      2.55</td>
+                  
+                  <td>       577273/966452</td>
+                  <td class="method_name"><a href="#Enumerable_each_with_index_70179258199220">Enumerable#each_with_index</a></td>
+                  <td></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.93</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      2.93</td>
+                  
+                  <td>        45012/966452</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_solve_70179258199220">Sudoku::Puzzle#solve</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=18" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:18">18</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  34.90%</td>
+                <td>   8.54%</td>
+                <td>     10.91</td>
+                <td>      2.67</td>
+                <td>      0.00</td>
+                <td>      8.24</td>
+                <td>              966452</td>
+                <td class="method_name">
+                  <a name="Array_each_70179258199220">
+                    *Array#each
+                  </a>
+                </td>
+                <td></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.73</td>
+                  <td>      2.73</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>     2064996/2064996</td>
+                  <td class="method_name"><a href="#Set_add_70179258199220">Set#add</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.03</td>
+                  <td>      0.03</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name">Fixnum#&lt;=&gt;</td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>               81/81</td>
+                  <td class="method_name">String#to_i</td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       474897/577273</td>
+                  <td class="method_name"><a href="#Enumerable_each_with_index_70179258199220">Enumerable#each_with_index</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>         45012/45013</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_solve_70179258199220">Sudoku::Puzzle#solve</a></td>
+                  <td></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      8.59</td>
+                  <td>      0.81</td>
+                  <td>      0.00</td>
+                  <td>      7.78</td>
+                  
+                  <td>       229444/229444</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  27.46%</td>
+                <td>   2.59%</td>
+                <td>      8.59</td>
+                <td>      0.81</td>
+                <td>      0.00</td>
+                <td>      7.78</td>
+                <td>              229444</td>
+                <td class="method_name">
+                  <a name="Set_initialize_70179258199220">
+                     Set#initialize
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=80" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:80">80</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      7.25</td>
+                  <td>      0.89</td>
+                  <td>      0.00</td>
+                  <td>      6.35</td>
+                  
+                  <td>       229444/344166</td>
+                  <td class="method_name"><a href="#Set_merge_70179258199220">Set#merge</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=88" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:88">88</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.11</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       229444/229444</td>
+                  <td class="method_name">Kernel#nil?</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=83" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:83">83</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       229444/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=81" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:81">81</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.06</td>
+                  <td>      0.13</td>
+                  <td>      0.00</td>
+                  <td>      1.94</td>
+                  
+                  <td>        57361/286805</td>
+                  <td class="method_name"><a href="#Set_subtract_70179258199220">Set#subtract</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=364" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:364">364</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      6.13</td>
+                  <td>      0.51</td>
+                  <td>      0.00</td>
+                  <td>      5.63</td>
+                  
+                  <td>       229444/286805</td>
+                  <td class="method_name"><a href="#Set_merge_70179258199220">Set#merge</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=355" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:355">355</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  26.21%</td>
+                <td>   2.03%</td>
+                <td>      8.20</td>
+                <td>      0.64</td>
+                <td>      0.00</td>
+                <td>      7.56</td>
+                <td>              286805</td>
+                <td class="method_name">
+                  <a name="Set_do_with_enum_70179258199220">
+                     Set#do_with_enum
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=92" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:92">92</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      7.41</td>
+                  <td>      0.50</td>
+                  <td>      0.00</td>
+                  <td>      6.90</td>
+                  
+                  <td>       286805/286805</td>
+                  <td class="method_name"><a href="#Enumerable_each_entry_70179258199220">Enumerable#each_entry</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=94" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:94">94</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.16</td>
+                  <td>      0.16</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       286805/286805</td>
+                  <td class="method_name">Kernel#respond_to?</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=93" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:93">93</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.68</td>
+                  <td>      0.40</td>
+                  <td>      0.00</td>
+                  <td>      0.29</td>
+                  
+                  <td>       114722/344166</td>
+                  <td class="method_name"><a href="#Set_|_70179258199220">Set#|</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=371" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:371">371</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      7.25</td>
+                  <td>      0.89</td>
+                  <td>      0.00</td>
+                  <td>      6.35</td>
+                  
+                  <td>       229444/344166</td>
+                  <td class="method_name"><a href="#Set_initialize_70179258199220">Set#initialize</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=88" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:88">88</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  25.35%</td>
+                <td>   4.12%</td>
+                <td>      7.93</td>
+                <td>      1.29</td>
+                <td>      0.00</td>
+                <td>      6.64</td>
+                <td>              344166</td>
+                <td class="method_name">
+                  <a name="Set_merge_70179258199220">
+                     Set#merge
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=351" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:351">351</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      6.13</td>
+                  <td>      0.51</td>
+                  <td>      0.00</td>
+                  <td>      5.63</td>
+                  
+                  <td>       229444/286805</td>
+                  <td class="method_name"><a href="#Set_do_with_enum_70179258199220">Set#do_with_enum</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=355" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:355">355</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.17</td>
+                  <td>      0.17</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       344166/401528</td>
+                  <td class="method_name">Kernel#class</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=352" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:352">352</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.16</td>
+                  <td>      0.16</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       344166/344166</td>
+                  <td class="method_name">Kernel#instance_of?</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=352" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:352">352</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.12</td>
+                  <td>      0.12</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name">Hash#update</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=353" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:353">353</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.06</td>
+                  <td>      0.06</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       114722/229444</td>
+                  <td class="method_name">Kernel#instance_variable_get</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=353" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:353">353</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      7.41</td>
+                  <td>      0.50</td>
+                  <td>      0.00</td>
+                  <td>      6.90</td>
+                  
+                  <td>       286805/286805</td>
+                  <td class="method_name"><a href="#Set_do_with_enum_70179258199220">Set#do_with_enum</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=94" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:94">94</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  23.68%</td>
+                <td>   1.60%</td>
+                <td>      7.41</td>
+                <td>      0.50</td>
+                <td>      0.00</td>
+                <td>      6.90</td>
+                <td>              286805</td>
+                <td class="method_name">
+                  <a name="Enumerable_each_entry_70179258199220">
+                     Enumerable#each_entry
+                  </a>
+                </td>
+                <td></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.70</td>
+                  <td>      0.29</td>
+                  <td>      0.00</td>
+                  <td>      2.41</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name"><a href="#Vector_each_70179258199220">Vector#each</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.42</td>
+                  <td>      1.02</td>
+                  <td>      0.00</td>
+                  <td>      1.40</td>
+                  
+                  <td>       114722/966452</td>
+                  <td class="method_name"><a href="#Array_each_70179258199220">Array#each</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#Set_each_70179258199220">Set#each</a></td>
+                  <td></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.68</td>
+                  <td>      0.21</td>
+                  <td>      0.00</td>
+                  <td>      2.48</td>
+                  
+                  <td>        45013/102375</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_solved__70179258199220">Sudoku::Puzzle#solved?</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=29" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:29">29</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      3.51</td>
+                  <td>      0.29</td>
+                  <td>      0.00</td>
+                  <td>      3.22</td>
+                  
+                  <td>        57362/102375</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_build_children_70179258199220">Sudoku::Puzzle#build_children</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=46" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:46">46</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  19.80%</td>
+                <td>   1.59%</td>
+                <td>      6.19</td>
+                <td>      0.50</td>
+                <td>      0.00</td>
+                <td>      5.69</td>
+                <td>              102375</td>
+                <td class="method_name">
+                  <a name="Matrix_index_70179258199220">
+                     Matrix#index
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=529" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:529">529</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      5.54</td>
+                  <td>      0.33</td>
+                  <td>      0.00</td>
+                  <td>      5.21</td>
+                  
+                  <td>       102375/102375</td>
+                  <td class="method_name"><a href="#Matrix_each_with_index_70179258199220">Matrix#each_with_index</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=535" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:535">535</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.06</td>
+                  <td>      0.06</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       102375/102375</td>
+                  <td class="method_name">Array#pop</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=531" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:531">531</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.05</td>
+                  <td>      0.05</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       102375/434194</td>
+                  <td class="method_name">Kernel#block_given?</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=532" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:532">532</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.05</td>
+                  <td>      0.05</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       102375/102375</td>
+                  <td class="method_name">Array#first</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=534" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:534">534</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      5.54</td>
+                  <td>      0.33</td>
+                  <td>      0.00</td>
+                  <td>      5.21</td>
+                  
+                  <td>       102375/102375</td>
+                  <td class="method_name"><a href="#Matrix_index_70179258199220">Matrix#index</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=535" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:535">535</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  17.70%</td>
+                <td>   1.04%</td>
+                <td>      5.54</td>
+                <td>      0.33</td>
+                <td>      0.00</td>
+                <td>      5.21</td>
+                <td>              102375</td>
+                <td class="method_name">
+                  <a name="Matrix_each_with_index_70179258199220">
+                     Matrix#each_with_index
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=466" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:466">466</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      5.16</td>
+                  <td>      0.17</td>
+                  <td>      0.00</td>
+                  <td>      4.99</td>
+                  
+                  <td>       102375/577273</td>
+                  <td class="method_name"><a href="#Enumerable_each_with_index_70179258199220">Enumerable#each_with_index</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=471" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:471">471</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.05</td>
+                  <td>      0.05</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       102375/434194</td>
+                  <td class="method_name">Kernel#block_given?</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=467" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:467">467</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       474897/577273</td>
+                  <td class="method_name"><a href="#Array_each_70179258199220">Array#each</a></td>
+                  <td></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>            1/577273</td>
+                  <td class="method_name"><a href="#Sudoku__Solver_initialize_70179258199220">Sudoku::Solver#initialize</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=13" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:13">13</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      5.16</td>
+                  <td>      0.17</td>
+                  <td>      0.00</td>
+                  <td>      4.99</td>
+                  
+                  <td>       102375/577273</td>
+                  <td class="method_name"><a href="#Matrix_each_with_index_70179258199220">Matrix#each_with_index</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=471" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:471">471</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  16.50%</td>
+                <td>   0.54%</td>
+                <td>      5.16</td>
+                <td>      0.17</td>
+                <td>      0.00</td>
+                <td>      4.99</td>
+                <td>              577273</td>
+                <td class="method_name">
+                  <a name="Enumerable_each_with_index_70179258199220">
+                    *Enumerable#each_with_index
+                  </a>
+                </td>
+                <td></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.84</td>
+                  <td>      0.29</td>
+                  <td>      0.00</td>
+                  <td>      2.55</td>
+                  
+                  <td>       577273/966452</td>
+                  <td class="method_name"><a href="#Array_each_70179258199220">Array#each</a></td>
+                  <td></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      4.72</td>
+                  <td>      0.16</td>
+                  <td>      0.00</td>
+                  <td>      4.57</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_build_children_70179258199220">Sudoku::Puzzle#build_children</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  15.11%</td>
+                <td>   0.50%</td>
+                <td>      4.72</td>
+                <td>      0.16</td>
+                <td>      0.00</td>
+                <td>      4.57</td>
+                <td>               57361</td>
+                <td class="method_name">
+                  <a name="Sudoku__Puzzle_set_for_square_70179258199220">
+                     Sudoku::Puzzle#set_for_square
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=77" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:77">77</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.62</td>
+                  <td>      0.27</td>
+                  <td>      0.00</td>
+                  <td>      1.35</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_array_index_to_matrix_subsquare_70179258199220">Sudoku::Puzzle#array_index_to_matrix_subsquare</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=78" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:78">78</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.69</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      0.58</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#Matrix_to_a_70179258199220">Matrix#to_a</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=78" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:78">78</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.15</td>
+                  <td>      0.15</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name">Array#flatten</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=78" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:78">78</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=78" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:78">78</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>      114722/1491395</td>
+                  <td class="method_name"><a href="#Set_initialize_copy_70179258199220">Set#initialize_copy</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=105" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:105">105</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.23</td>
+                  <td>      0.13</td>
+                  <td>      0.00</td>
+                  <td>      1.10</td>
+                  
+                  <td>      114722/1491395</td>
+                  <td class="method_name"><a href="#Set_|_70179258199220">Set#|</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=371" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:371">371</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.44</td>
+                  <td>      0.63</td>
+                  <td>      0.00</td>
+                  <td>      0.80</td>
+                  
+                  <td>      573619/1491395</td>
+                  <td class="method_name"><a href="#Matrix__ConversionHelper_convert_to_array_70179258199220">Matrix::ConversionHelper#convert_to_array</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1365" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1365">1365</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.70</td>
+                  <td>      0.77</td>
+                  <td>      0.00</td>
+                  <td>      0.94</td>
+                  
+                  <td>      688332/1491395</td>
+                  <td class="method_name"><a href="#Array_collect_70179258199220">Array#collect</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  13.96%</td>
+                <td>   4.90%</td>
+                <td>      4.37</td>
+                <td>      1.53</td>
+                <td>      0.00</td>
+                <td>      2.84</td>
+                <td>             1491395</td>
+                <td class="method_name">
+                  <a name="Kernel_dup_70179258199220">
+                    *Kernel#dup
+                  </a>
+                </td>
+                <td></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.84</td>
+                  <td>      1.23</td>
+                  <td>      0.00</td>
+                  <td>      1.61</td>
+                  
+                  <td>     1491395/1491395</td>
+                  <td class="method_name"><a href="#Kernel_initialize_dup_70179258199220">Kernel#initialize_dup</a></td>
+                  <td></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>             1/57362</td>
+                  <td class="method_name"><a href="#Sudoku__Solver_initialize_70179258199220">Sudoku::Solver#initialize</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=17" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:17">17</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      3.97</td>
+                  <td>      0.28</td>
+                  <td>      0.00</td>
+                  <td>      3.69</td>
+                  
+                  <td>         57361/57362</td>
+                  <td class="method_name"><a href="#Hash_each_key_70179258199220">Hash#each_key</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  12.69%</td>
+                <td>   0.90%</td>
+                <td>      3.97</td>
+                <td>      0.28</td>
+                <td>      0.00</td>
+                <td>      3.69</td>
+                <td>               57362</td>
+                <td class="method_name">
+                  <a name="_Class__Matrix__rows_70179258199220">
+                     &lt;Class::Matrix&gt;#rows
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=152" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:152">152</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      3.10</td>
+                  <td>      0.51</td>
+                  <td>      0.00</td>
+                  <td>      2.59</td>
+                  
+                  <td>         57362/57362</td>
+                  <td class="method_name"><a href="#Array_map!_70179258199220">Array#map!</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=154" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:154">154</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.28</td>
+                  <td>      0.28</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57362/966452</td>
+                  <td class="method_name"><a href="#Array_each_70179258199220">Array#each</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=158" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:158">158</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.16</td>
+                  <td>      0.13</td>
+                  <td>      0.00</td>
+                  <td>      0.03</td>
+                  
+                  <td>        57362/688342</td>
+                  <td class="method_name"><a href="#Matrix__ConversionHelper_convert_to_array_70179258199220">Matrix::ConversionHelper#convert_to_array</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=153" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:153">153</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57362/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=161" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:161">161</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      3.55</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      3.44</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_build_children_70179258199220">Sudoku::Puzzle#build_children</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  11.34%</td>
+                <td>   0.34%</td>
+                <td>      3.55</td>
+                <td>      0.11</td>
+                <td>      0.00</td>
+                <td>      3.44</td>
+                <td>               57361</td>
+                <td class="method_name">
+                  <a name="Sudoku__Puzzle_set_for_col_70179258199220">
+                     Sudoku::Puzzle#set_for_col
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=71" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:71">71</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.15</td>
+                  <td>      0.28</td>
+                  <td>      0.00</td>
+                  <td>      0.86</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Matrix_column_70179258199220">Matrix#column</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=72" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:72">72</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=72" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:72">72</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.16</td>
+                  <td>      0.13</td>
+                  <td>      0.00</td>
+                  <td>      0.03</td>
+                  
+                  <td>        57362/688342</td>
+                  <td class="method_name"><a href="#_Class__Matrix__rows_70179258199220">&lt;Class::Matrix&gt;#rows</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=153" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:153">153</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.46</td>
+                  <td>      0.25</td>
+                  <td>      0.00</td>
+                  <td>      0.21</td>
+                  
+                  <td>       114722/688342</td>
+                  <td class="method_name"><a href="#_Class__Vector__elements_70179258199220">&lt;Class::Vector&gt;#elements</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1565" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1565">1565</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.59</td>
+                  <td>      1.06</td>
+                  <td>      0.00</td>
+                  <td>      1.53</td>
+                  
+                  <td>       516258/688342</td>
+                  <td class="method_name"><a href="#Array_map!_70179258199220">Array#map!</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  10.24%</td>
+                <td>   4.60%</td>
+                <td>      3.20</td>
+                <td>      1.44</td>
+                <td>      0.00</td>
+                <td>      1.76</td>
+                <td>              688342</td>
+                <td class="method_name">
+                  <a name="Matrix__ConversionHelper_convert_to_array_70179258199220">
+                     Matrix::ConversionHelper#convert_to_array
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1362" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1362">1362</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.44</td>
+                  <td>      0.63</td>
+                  <td>      0.00</td>
+                  <td>      0.80</td>
+                  
+                  <td>      573619/1491395</td>
+                  <td class="method_name"><a href="#Kernel_dup_70179258199220">Kernel#dup</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1365" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1365">1365</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.33</td>
+                  <td>      0.33</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       688342/688342</td>
+                  <td class="method_name">Module#===</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1363" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1363">1363</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      3.19</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      3.09</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_build_children_70179258199220">Sudoku::Puzzle#build_children</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>  10.21%</td>
+                <td>   0.34%</td>
+                <td>      3.19</td>
+                <td>      0.11</td>
+                <td>      0.00</td>
+                <td>      3.09</td>
+                <td>               57361</td>
+                <td class="method_name">
+                  <a name="Sudoku__Puzzle_set_for_row_70179258199220">
+                     Sudoku::Puzzle#set_for_row
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=65" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:65">65</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.75</td>
+                  <td>      0.16</td>
+                  <td>      0.00</td>
+                  <td>      0.60</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Matrix_row_70179258199220">Matrix#row</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=66" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:66">66</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=66" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:66">66</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      3.10</td>
+                  <td>      0.51</td>
+                  <td>      0.00</td>
+                  <td>      2.59</td>
+                  
+                  <td>         57362/57362</td>
+                  <td class="method_name"><a href="#_Class__Matrix__rows_70179258199220">&lt;Class::Matrix&gt;#rows</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=154" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:154">154</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   9.91%</td>
+                <td>   1.63%</td>
+                <td>      3.10</td>
+                <td>      0.51</td>
+                <td>      0.00</td>
+                <td>      2.59</td>
+                <td>               57362</td>
+                <td class="method_name">
+                  <a name="Array_map!_70179258199220">
+                     Array#map!
+                  </a>
+                </td>
+                <td></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.59</td>
+                  <td>      1.06</td>
+                  <td>      0.00</td>
+                  <td>      1.53</td>
+                  
+                  <td>       516258/688342</td>
+                  <td class="method_name"><a href="#Matrix__ConversionHelper_convert_to_array_70179258199220">Matrix::ConversionHelper#convert_to_array</a></td>
+                  <td></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.93</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      2.93</td>
+                  
+                  <td>                 1/1</td>
+                  <td class="method_name"><a href="#Global_[No method]_70179258199220">Global#[No method]</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb&line=9" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/profile.rb:9">9</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   9.38%</td>
+                <td>   0.00%</td>
+                <td>      2.93</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      2.93</td>
+                <td>                   1</td>
+                <td class="method_name">
+                  <a name="Sudoku__Solver_answer_70179258199220">
+                     Sudoku::Solver#answer
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=20" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:20">20</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.93</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      2.93</td>
+                  
+                  <td>             1/45013</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_solve_70179258199220">Sudoku::Puzzle#solve</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=21" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:21">21</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>                 1/1</td>
+                  <td class="method_name">Matrix#to_s</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=21" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:21">21</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>         45012/45013</td>
+                  <td class="method_name"><a href="#Array_each_70179258199220">Array#each</a></td>
+                  <td></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.93</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      2.93</td>
+                  
+                  <td>             1/45013</td>
+                  <td class="method_name"><a href="#Sudoku__Solver_answer_70179258199220">Sudoku::Solver#answer</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb&line=21" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/solver.rb:21">21</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   9.38%</td>
+                <td>   0.00%</td>
+                <td>      2.93</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>      2.93</td>
+                <td>               45013</td>
+                <td class="method_name">
+                  <a name="Sudoku__Puzzle_solve_70179258199220">
+                    *Sudoku::Puzzle#solve
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=15" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:15">15</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.93</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      2.93</td>
+                  
+                  <td>        45012/966452</td>
+                  <td class="method_name"><a href="#Array_each_70179258199220">Array#each</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=18" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:18">18</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.75</td>
+                  <td>      0.07</td>
+                  <td>      0.00</td>
+                  <td>      2.68</td>
+                  
+                  <td>         45013/45013</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_solved__70179258199220">Sudoku::Puzzle#solved?</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=16" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:16">16</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.84</td>
+                  <td>      1.23</td>
+                  <td>      0.00</td>
+                  <td>      1.61</td>
+                  
+                  <td>     1491395/1491395</td>
+                  <td class="method_name"><a href="#Kernel_dup_70179258199220">Kernel#dup</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   9.07%</td>
+                <td>   3.94%</td>
+                <td>      2.84</td>
+                <td>      1.23</td>
+                <td>      0.00</td>
+                <td>      1.61</td>
+                <td>             1491395</td>
+                <td class="method_name">
+                  <a name="Kernel_initialize_dup_70179258199220">
+                    *Kernel#initialize_dup
+                  </a>
+                </td>
+                <td></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.98</td>
+                  <td>      0.20</td>
+                  <td>      0.00</td>
+                  <td>      0.77</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name"><a href="#Set_initialize_copy_70179258199220">Set#initialize_copy</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.63</td>
+                  <td>      0.63</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>     1261951/1261951</td>
+                  <td class="method_name"><a href="#Array_initialize_copy_70179258199220">Array#initialize_copy</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.49</td>
+                  <td>      0.49</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name">Hash#initialize_copy</td>
+                  <td></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.75</td>
+                  <td>      0.07</td>
+                  <td>      0.00</td>
+                  <td>      2.68</td>
+                  
+                  <td>         45013/45013</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_solve_70179258199220">Sudoku::Puzzle#solve</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=16" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:16">16</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   8.79%</td>
+                <td>   0.21%</td>
+                <td>      2.75</td>
+                <td>      0.07</td>
+                <td>      0.00</td>
+                <td>      2.68</td>
+                <td>               45013</td>
+                <td class="method_name">
+                  <a name="Sudoku__Puzzle_solved__70179258199220">
+                     Sudoku::Puzzle#solved?
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=28" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:28">28</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.68</td>
+                  <td>      0.21</td>
+                  <td>      0.00</td>
+                  <td>      2.48</td>
+                  
+                  <td>        45013/102375</td>
+                  <td class="method_name"><a href="#Matrix_index_70179258199220">Matrix#index</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=29" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:29">29</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.73</td>
+                  <td>      2.73</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>     2064996/2064996</td>
+                  <td class="method_name"><a href="#Array_each_70179258199220">Array#each</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   8.73%</td>
+                <td>   8.73%</td>
+                <td>      2.73</td>
+                <td>      2.73</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>             2064996</td>
+                <td class="method_name">
+                  <a name="Set_add_70179258199220">
+                     Set#add
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=269" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:269">269</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.70</td>
+                  <td>      0.29</td>
+                  <td>      0.00</td>
+                  <td>      2.41</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name"><a href="#Enumerable_each_entry_70179258199220">Enumerable#each_entry</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   8.64%</td>
+                <td>   0.94%</td>
+                <td>      2.70</td>
+                <td>      0.29</td>
+                <td>      0.00</td>
+                <td>      2.41</td>
+                <td>              114722</td>
+                <td class="method_name">
+                  <a name="Vector_each_70179258199220">
+                     Vector#each
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1608" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1608">1608</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.35</td>
+                  <td>      1.01</td>
+                  <td>      0.00</td>
+                  <td>      1.34</td>
+                  
+                  <td>       114722/966452</td>
+                  <td class="method_name"><a href="#Array_each_70179258199220">Array#each</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1610" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1610">1610</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.06</td>
+                  <td>      0.06</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       114722/434194</td>
+                  <td class="method_name">Kernel#block_given?</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1609" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1609">1609</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>            9/172093</td>
+                  <td class="method_name"><a href="#Array_collect_70179258199220">Array#collect</a></td>
+                  <td></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>            1/172093</td>
+                  <td class="method_name">Matrix#to_s</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1340" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1340">1340</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.31</td>
+                  <td>      0.20</td>
+                  <td>      0.00</td>
+                  <td>      0.11</td>
+                  
+                  <td>        57361/172093</td>
+                  <td class="method_name"><a href="#Matrix_minor_70179258199220">Matrix#minor</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=586" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:586">586</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.12</td>
+                  <td>      0.41</td>
+                  <td>      0.00</td>
+                  <td>      1.70</td>
+                  
+                  <td>       114722/172093</td>
+                  <td class="method_name"><a href="#Matrix_to_a_70179258199220">Matrix#to_a</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1309" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1309">1309</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   7.76%</td>
+                <td>   1.97%</td>
+                <td>      2.43</td>
+                <td>      0.62</td>
+                <td>      0.00</td>
+                <td>      1.81</td>
+                <td>              172093</td>
+                <td class="method_name">
+                  <a name="Array_collect_70179258199220">
+                    *Array#collect
+                  </a>
+                </td>
+                <td></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.70</td>
+                  <td>      0.77</td>
+                  <td>      0.00</td>
+                  <td>      0.94</td>
+                  
+                  <td>      688332/1491395</td>
+                  <td class="method_name"><a href="#Kernel_dup_70179258199220">Kernel#dup</a></td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.11</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       172083/229444</td>
+                  <td class="method_name">Array#[]</td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>               81/81</td>
+                  <td class="method_name">Fixnum#to_s</td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>                9/10</td>
+                  <td class="method_name">Array#join</td>
+                  <td></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>            9/172093</td>
+                  <td class="method_name"><a href="#Array_collect_70179258199220">Array#collect</a></td>
+                  <td></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.69</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      0.58</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_set_for_square_70179258199220">Sudoku::Puzzle#set_for_square</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=78" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:78">78</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.71</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      1.60</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#Hash_each_key_70179258199220">Hash#each_key</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   7.68%</td>
+                <td>   0.71%</td>
+                <td>      2.40</td>
+                <td>      0.22</td>
+                <td>      0.00</td>
+                <td>      2.18</td>
+                <td>              114722</td>
+                <td class="method_name">
+                  <a name="Matrix_to_a_70179258199220">
+                     Matrix#to_a
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1308" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1308">1308</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.12</td>
+                  <td>      0.41</td>
+                  <td>      0.00</td>
+                  <td>      1.70</td>
+                  
+                  <td>       114722/172093</td>
+                  <td class="method_name"><a href="#Array_collect_70179258199220">Array#collect</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1309" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1309">1309</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.06</td>
+                  <td>      0.06</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name">Symbol#to_proc</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1309" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1309">1309</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.25</td>
+                  <td>      0.19</td>
+                  <td>      0.00</td>
+                  <td>      2.06</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_build_children_70179258199220">Sudoku::Puzzle#build_children</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   7.19%</td>
+                <td>   0.59%</td>
+                <td>      2.25</td>
+                <td>      0.19</td>
+                <td>      0.00</td>
+                <td>      2.06</td>
+                <td>               57361</td>
+                <td class="method_name">
+                  <a name="Set_subtract_70179258199220">
+                     Set#subtract
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=363" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:363">363</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.06</td>
+                  <td>      0.13</td>
+                  <td>      0.00</td>
+                  <td>      1.94</td>
+                  
+                  <td>        57361/286805</td>
+                  <td class="method_name"><a href="#Set_do_with_enum_70179258199220">Set#do_with_enum</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=364" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:364">364</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      2.11</td>
+                  <td>      0.20</td>
+                  <td>      0.00</td>
+                  <td>      1.91</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_build_children_70179258199220">Sudoku::Puzzle#build_children</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=48" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:48">48</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   6.75%</td>
+                <td>   0.65%</td>
+                <td>      2.11</td>
+                <td>      0.20</td>
+                <td>      0.00</td>
+                <td>      1.91</td>
+                <td>              114722</td>
+                <td class="method_name">
+                  <a name="Set_|_70179258199220">
+                     Set#|
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=370" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:370">370</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.23</td>
+                  <td>      0.13</td>
+                  <td>      0.00</td>
+                  <td>      1.10</td>
+                  
+                  <td>      114722/1491395</td>
+                  <td class="method_name"><a href="#Kernel_dup_70179258199220">Kernel#dup</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=371" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:371">371</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.68</td>
+                  <td>      0.40</td>
+                  <td>      0.00</td>
+                  <td>      0.29</td>
+                  
+                  <td>       114722/344166</td>
+                  <td class="method_name"><a href="#Set_merge_70179258199220">Set#merge</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=371" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:371">371</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.62</td>
+                  <td>      0.27</td>
+                  <td>      0.00</td>
+                  <td>      1.35</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_set_for_square_70179258199220">Sudoku::Puzzle#set_for_square</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=78" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:78">78</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   5.18%</td>
+                <td>   0.86%</td>
+                <td>      1.62</td>
+                <td>      0.27</td>
+                <td>      0.00</td>
+                <td>      1.35</td>
+                <td>               57361</td>
+                <td class="method_name">
+                  <a name="Sudoku__Puzzle_array_index_to_matrix_subsquare_70179258199220">
+                     Sudoku::Puzzle#array_index_to_matrix_subsquare
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=99" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:99">99</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.24</td>
+                  <td>      0.38</td>
+                  <td>      0.00</td>
+                  <td>      0.86</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Matrix_minor_70179258199220">Matrix#minor</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=105" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:105">105</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.11</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name">Sudoku::Puzzle#array_index_to_matrix_index</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=103" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:103">103</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.24</td>
+                  <td>      0.38</td>
+                  <td>      0.00</td>
+                  <td>      0.86</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_array_index_to_matrix_subsquare_70179258199220">Sudoku::Puzzle#array_index_to_matrix_subsquare</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=105" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:105">105</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   3.98%</td>
+                <td>   1.22%</td>
+                <td>      1.24</td>
+                <td>      0.38</td>
+                <td>      0.00</td>
+                <td>      0.86</td>
+                <td>               57361</td>
+                <td class="method_name">
+                  <a name="Matrix_minor_70179258199220">
+                     Matrix#minor
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=559" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:559">559</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.31</td>
+                  <td>      0.20</td>
+                  <td>      0.00</td>
+                  <td>      0.11</td>
+                  
+                  <td>        57361/172093</td>
+                  <td class="method_name"><a href="#Array_collect_70179258199220">Array#collect</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=586" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:586">586</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.29</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      0.18</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name">Matrix#new_matrix</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=589" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:589">589</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.17</td>
+                  <td>      0.08</td>
+                  <td>      0.00</td>
+                  <td>      0.10</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name">Enumerable#min</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=589" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:589">589</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.05</td>
+                  <td>      0.05</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/114723</td>
+                  <td class="method_name">Matrix#row_count</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=585" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:585">585</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.04</td>
+                  <td>      0.04</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/229444</td>
+                  <td class="method_name">Array#[]</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=586" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:586">586</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.15</td>
+                  <td>      0.28</td>
+                  <td>      0.00</td>
+                  <td>      0.86</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_set_for_col_70179258199220">Sudoku::Puzzle#set_for_col</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=72" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:72">72</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   3.67%</td>
+                <td>   0.90%</td>
+                <td>      1.15</td>
+                <td>      0.28</td>
+                <td>      0.00</td>
+                <td>      0.86</td>
+                <td>               57361</td>
+                <td class="method_name">
+                  <a name="Matrix_column_70179258199220">
+                     Matrix#column
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=359" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:359">359</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.38</td>
+                  <td>      0.10</td>
+                  <td>      0.00</td>
+                  <td>      0.27</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#_Class__Vector__elements_70179258199220">&lt;Class::Vector&gt;#elements</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=371" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:371">371</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.05</td>
+                  <td>      0.05</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/114723</td>
+                  <td class="method_name">Matrix#row_count</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=368" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:368">368</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.03</td>
+                  <td>      0.03</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/434194</td>
+                  <td class="method_name">Kernel#block_given?</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=360" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:360">360</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.03</td>
+                  <td>      0.03</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name">Fixnum#-@</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=367" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:367">367</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=368" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:368">368</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      1.13</td>
+                  <td>      0.83</td>
+                  <td>      0.00</td>
+                  <td>      0.30</td>
+                  
+                  <td>       516249/516249</td>
+                  <td class="method_name"><a href="#Hash_each_key_70179258199220">Hash#each_key</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   3.61%</td>
+                <td>   2.66%</td>
+                <td>      1.13</td>
+                <td>      0.83</td>
+                <td>      0.00</td>
+                <td>      0.30</td>
+                <td>              516249</td>
+                <td class="method_name">
+                  <a name="Set_delete_70179258199220">
+                     Set#delete
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=287" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:287">287</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.30</td>
+                  <td>      0.30</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       516249/516249</td>
+                  <td class="method_name">Hash#delete</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=288" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:288">288</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.98</td>
+                  <td>      0.20</td>
+                  <td>      0.00</td>
+                  <td>      0.77</td>
+                  
+                  <td>       114722/114722</td>
+                  <td class="method_name"><a href="#Kernel_initialize_dup_70179258199220">Kernel#initialize_dup</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   3.13%</td>
+                <td>   0.65%</td>
+                <td>      0.98</td>
+                <td>      0.20</td>
+                <td>      0.00</td>
+                <td>      0.77</td>
+                <td>              114722</td>
+                <td class="method_name">
+                  <a name="Set_initialize_copy_70179258199220">
+                     Set#initialize_copy
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=104" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:104">104</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.06</td>
+                  <td>      0.06</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       114722/229444</td>
+                  <td class="method_name">Kernel#instance_variable_get</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=105" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:105">105</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>      114722/1491395</td>
+                  <td class="method_name"><a href="#Kernel_dup_70179258199220">Kernel#dup</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb&line=105" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/set.rb:105">105</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.38</td>
+                  <td>      0.10</td>
+                  <td>      0.00</td>
+                  <td>      0.27</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#Matrix_column_70179258199220">Matrix#column</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=371" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:371">371</a></td>
+                </tr>
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.53</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      0.43</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#Matrix_row_70179258199220">Matrix#row</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=350" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:350">350</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   2.91%</td>
+                <td>   0.67%</td>
+                <td>      0.91</td>
+                <td>      0.21</td>
+                <td>      0.00</td>
+                <td>      0.70</td>
+                <td>              114722</td>
+                <td class="method_name">
+                  <a name="_Class__Vector__elements_70179258199220">
+                     &lt;Class::Vector&gt;#elements
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1564" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1564">1564</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.46</td>
+                  <td>      0.25</td>
+                  <td>      0.00</td>
+                  <td>      0.21</td>
+                  
+                  <td>       114722/688342</td>
+                  <td class="method_name"><a href="#Matrix__ConversionHelper_convert_to_array_70179258199220">Matrix::ConversionHelper#convert_to_array</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1565" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1565">1565</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>       114722/803057</td>
+                  <td class="method_name"><a href="#Class_new_70179258199220">Class#new</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=1565" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:1565">1565</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.75</td>
+                  <td>      0.16</td>
+                  <td>      0.00</td>
+                  <td>      0.60</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name"><a href="#Sudoku__Puzzle_set_for_row_70179258199220">Sudoku::Puzzle#set_for_row</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb&line=66" title="/Users/jesse/codeunion/topics-in-cs/session-notes/2015-02-11/sudoku_sung/lib/sudoku/puzzle.rb:66">66</a></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   2.41%</td>
+                <td>   0.51%</td>
+                <td>      0.75</td>
+                <td>      0.16</td>
+                <td>      0.00</td>
+                <td>      0.60</td>
+                <td>               57361</td>
+                <td class="method_name">
+                  <a name="Matrix_row_70179258199220">
+                     Matrix#row
+                  </a>
+                </td>
+                <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=345" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:345">345</a></td>
+              </tr>
+
+              <!-- Children -->
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.53</td>
+                  <td>      0.11</td>
+                  <td>      0.00</td>
+                  <td>      0.43</td>
+                  
+                  <td>        57361/114722</td>
+                  <td class="method_name"><a href="#_Class__Vector__elements_70179258199220">&lt;Class::Vector&gt;#elements</a></td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=350" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:350">350</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.03</td>
+                  <td>      0.03</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>         57361/57361</td>
+                  <td class="method_name">Array#fetch</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=350" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:350">350</a></td>
+                </tr>
+              
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.03</td>
+                  <td>      0.03</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>        57361/434194</td>
+                  <td class="method_name">Kernel#block_given?</td>
+                  <td><a href="txmt://open?url=file:///Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb&line=346" title="/Users/jesse/.rubies/ruby-2.1.5/lib/ruby/2.1.0/matrix.rb:346">346</a></td>
+                </tr>
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+
+              <!-- Parents -->
+              
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>      0.63</td>
+                  <td>      0.63</td>
+                  <td>      0.00</td>
+                  <td>      0.00</td>
+                  
+                  <td>     1261951/1261951</td>
+                  <td class="method_name"><a href="#Kernel_initialize_dup_70179258199220">Kernel#initialize_dup</a></td>
+                  <td></td>
+                </tr>
+              
+
+              <tr class="method">
+                <td>   2.01%</td>
+                <td>   2.01%</td>
+                <td>      0.63</td>
+                <td>      0.63</td>
+                <td>      0.00</td>
+                <td>      0.00</td>
+                <td>             1261951</td>
+                <td class="method_name">
+                  <a name="Array_initialize_copy_70179258199220">
+                     Array#initialize_copy
+                  </a>
+                </td>
+                <td></td>
+              </tr>
+
+              <!-- Children -->
+              
+              <!-- Create divider row -->
+              <tr class="break"><td colspan="9"></td></tr>
+          
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="9">* indicates recursively called methods</td>
+          </tr>
+        </tfoot>
+      </table>
+    
+  </body>
+</html>

@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require_relative 'symbolic_calculator'
+
+input = ""
+while input != ("exit" || "quit")
+  print "rpn evaluate:"
+  input = gets.strip
+  puts SymbolicCalculator::Calculator.new(input).evaluate
+end

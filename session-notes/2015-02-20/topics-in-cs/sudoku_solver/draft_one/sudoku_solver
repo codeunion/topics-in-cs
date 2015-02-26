@@ -1,0 +1,73 @@
+# Brainstorming:
+# *************************
+
+# []
+
+# def convert_puzzle(puzzle)
+#   puzzle.map do |piece|
+#     if piece == 0
+#       Set.new(%w[1 2 3 4 5 6 7 8 9])
+#     else
+#       Set.new([0])
+#   end
+# end
+
+# def build_tree
+#   array_of_nine = %w[1 2 3 4 5 6 7 8 9]
+#   root = empty
+#   empty.add_children(array_of_nine)
+#   from 100000....0
+#   to 99999...9
+
+#   level = 0
+#   while level < 9
+#     parents = root
+#     parents.each do |parent|
+#       parent.children.each do |child|
+#         child.add_children(aray_of_nine)
+#       end
+#     end
+#     parents = parent.children
+#     level++
+#   end
+
+# end
+
+# puzzle.each do |pieces|
+#   pieces
+
+
+# def solve(tree) # solve(Puzzle.new(blocks))
+  
+#   first_array_index = puzzle.each_index do |index|
+#     return index if piece[index].is_a?(Array)
+#     return nil if index = puzzle.length - 1
+#   end
+
+#   current_puzzle = puzzle.dup
+#   if first_array_index
+#     if puzzle[first_array_index].length = 1
+#       current_puzzle[first_array_index] = puzzle[first_array_index][0]
+#       puzzle[first_array_index] = puzzle[first_array_index][0]
+#     else
+#       current_puzzle[first_array_index] = puzzle[first_array_index].pop
+#     end
+#   end
+
+
+
+#   if solved?
+#     return puzzle # or recreate puzzle by going up through all parents to root.
+#   elsif impossible?
+#       #parent.next = Puzzle.new(puzzle)
+#       parent.next.solve
+#   else
+#     if head_child #depth first
+#       head_child = Puzzle.new(puzzle)
+#       head_child.solve
+#     else
+#       nxt = Puzzle.new(puzzle)
+#       nxt.solve
+#     end
+#   end
+# end
